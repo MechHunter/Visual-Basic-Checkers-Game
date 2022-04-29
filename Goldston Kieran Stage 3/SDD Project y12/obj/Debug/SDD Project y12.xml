@@ -1,0 +1,419 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SDD Project y12
+</name>
+</assembly>
+<members>
+<member name="T:SDD_Project_y12.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SDD_Project_y12.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SDD_Project_y12.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:SDD_Project_y12.My.Resources.Resources.blackBlack">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDD_Project_y12.My.Resources.Resources.blackBlackKing">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDD_Project_y12.My.Resources.Resources.blackEmpty">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDD_Project_y12.My.Resources.Resources.blackWhite">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDD_Project_y12.My.Resources.Resources.blackWhiteKing">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDD_Project_y12.My.Resources.Resources.Brown_wooden_parquet_texture">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDD_Project_y12.My.Resources.Resources.checkers">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDD_Project_y12.My.Resources.Resources.istockphoto_1145602814_612x612">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDD_Project_y12.My.Resources.Resources.selectBlack">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDD_Project_y12.My.Resources.Resources.selectBlackKing">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDD_Project_y12.My.Resources.Resources.selectWhite">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDD_Project_y12.My.Resources.Resources.selectWhiteKing">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SDD_Project_y12.My.Resources.Resources.whiteEmpty">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:SDD_Project_y12.frmGame.Form1_Load(System.Object,System.EventArgs)">
+ <summary>
+ Executes upon the form being opened for the first time, written by Kieran Goldston 2021
+ </summary>
+ <param name="sender">Reference to the control which called the subroutine</param>
+ <param name="e">Provides more information about the event that caused this subroutine to be called</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.setGame">
+ <summary>
+ resets all aspects of the game (excluding scores), written by Kieran Goldston 2021
+ </summary>
+</member>
+<member name="M:SDD_Project_y12.frmGame.playerStarts">
+ <summary>
+ notifies user[s] which player is starting, written by Kieran Goldston 2021
+ </summary>
+</member>
+<member name="M:SDD_Project_y12.frmGame.arrSetup(SDD_Project_y12.frmGame.RecPiece[0:,0:])">
+ <summary>
+ sets up gamearr, adding player 1 and 2's pieces and empty spaces, written by Kieran Goldston 2021
+ </summary>
+ <param name="gameArr"></param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.SetGameBoard(System.Windows.Forms.PictureBox[0:,0:]@,SDD_Project_y12.frmGame.RecPiece[0:,0:]@)">
+ <summary>
+ Sets up the game board (what the user actually sees) with the information provided by the btnarr, written by Kieran Goldston 2021
+ </summary>
+ <param name="picArr">2d array of buttons, correlating to each gamearr index</param>
+ <param name="gameArr">2d array containing the information of each grid space on the board</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.printArr(SDD_Project_y12.frmGame.RecPiece[0:,0:]@)">
+ <summary>
+ prints the game array into the listbox, written by Kieran Goldston 2021
+ </summary>
+ <param name="gameArr">2d array containing the information of each grid space on the board</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.picBox_Click(System.Object,System.EventArgs)">
+ <summary>
+ executes when any of the game's grid buttons are clicked, written by Kieran Goldston 2021
+ </summary>
+ <param name="sender">Reference to the control which called the subroutine</param>
+ <param name="e">Provides more information about the event that caused this subroutine to be called</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.handleBtnClicks(System.Int32@,System.Int32@)">
+ <summary>
+ handles every aspect of the gameplay. Mainly it gets the first and second button positions and checks whether a win has been achieved, written by Kieran Goldston 2021
+ </summary>
+ <param name="clickedBtnX">the x position of the most current picture box the player has clicked on</param>
+ <param name="clickedBtnY">the y position of the most current picture box the player has clicked on</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.processWin">
+ <summary>
+ handles a win scenario, written by Kieran Goldston 2021
+ </summary>
+</member>
+<member name="M:SDD_Project_y12.frmGame.updatelstBox">
+ <summary>
+ refreshes the game statistics listbox with new infomation, written by Kieran Goldston 2021
+ </summary>
+</member>
+<member name="M:SDD_Project_y12.frmGame.checkPieceMove(System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+ <summary>
+ Handles the logic behind moving pieces. Passes the first and second button positions to each validate and check function. Also handles if a player must take a piece, written by Kieran Goldston 2021
+ </summary>
+ <param name="clickedBtnX">the x position of the most current picture box the player has clicked on</param>
+ <param name="clickedBtnY">the y position of the most current picture box the player has clicked on</param>
+ <param name="Xstart">the x position of the first picture box the player has clicked on</param>
+ <param name="Ystart">the y position of the first picture box the player has clicked on</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.highlightSpace(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ highlights (makes the square green) the picture box that has been clicked on, or unhighlights a highlighted box, written by Kieran Goldston 2021
+ </summary>
+ <param name="highlight">Determines whether the piece will be highlighted or unhighlighted (1 for unhighlight, 2 for highlight)</param>
+ <param name="clickedBtnX">the x position of the most current picture box the player has clicked on</param>
+ <param name="clickedBtnY">the y position of the most current picture box the player has clicked on</param>
+ <param name="Xstart">the x position of the first picture box the player has clicked on</param>
+ <param name="Ystart">the y position of the first picture box the player has clicked on</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.placePiece(System.Int32,System.Int32)">
+ <summary>
+ assigns a picture to a picture box to a corresponding grid square, written by Kieran Goldston 2021
+ </summary>
+ <param name="x">picture box / game array x position</param>
+ <param name="y">picture box / game array y position</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.selectPiece(System.Int32,System.Int32)">
+ <summary>
+ assigns a picture to a picture box to a corresponding grid square, written by Kieran Goldston 2021
+ </summary>
+ <param name="x">picture box / game array x position</param>
+ <param name="y">picture box / game array y position</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.placePieceKing(System.Int32,System.Int32)">
+ <summary>
+ assigns a picture to a picture box to a corresponding grid square, written by Kieran Goldston 2021
+ </summary>
+ <param name="x">picture box / game array x position</param>
+ <param name="y">picture box / game array y position</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.selectPieceKing(System.Int32,System.Int32)">
+ <summary>
+ assigns a picture to a picture box to a corresponding grid square, written by Kieran Goldston 2021
+ </summary>
+ <param name="x">picture box / game array x position</param>
+ <param name="y">picture box / game array y position</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.movePiece(System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+ <summary>
+ Handles moving pieces, written by Kieran Goldston 2021
+ </summary>
+ <param name="clickedBtnX">the x position of the most current picturebox the player has clicked on</param>
+ <param name="clickedBtnY">the y position of the most current picturebox the player has clicked on</param>
+ <param name="Xstart">the x position of the first picturebox the player has clicked on</param>
+ <param name="Ystart">the y position of the first picturebox the player has clicked on</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.validateMove(System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+ <summary>
+ Checks whether the move a player is attempting to make is valid, written by Kieran Goldston 2021
+ </summary>
+ <param name="clickedBtnX">the x position of the most current picturebox the player has clicked on</param>
+ <param name="clickedBtnY">the y position of the most current picturebox the player has clicked on</param>
+ <param name="Xstart">the x position of the first picturebox the player has clicked on</param>
+ <param name="Ystart">the y position of the first picturebox the player has clicked on</param>
+ <returns> a boolean value</returns>
+</member>
+<member name="M:SDD_Project_y12.frmGame.validBackwardsMove(System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+ <summary>
+ Checks whether a backwards move is valid, written by Kieran Goldston 2021
+ </summary>
+ <param name="clickedBtnX">the x position of the most current picturebox the player has clicked on</param>
+ <param name="clickedBtnY">the y position of the most current picturebox the player has clicked on</param>
+ <param name="Xstart">the x position of the first picturebox the player has clicked on</param>
+ <param name="Ystart">the y position of the first picturebox the player has clicked on</param>
+ <returns> a boolean value</returns>
+</member>
+<member name="M:SDD_Project_y12.frmGame.validPieceTake(System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+ <summary>
+ Checks whether a piece take is valid, written by Kieran Goldston 2021
+ </summary>
+ <param name="clickedBtnX">the x position of the most current picturebox the player has clicked on</param>
+ <param name="clickedBtnY">the y position of the most current picturebox the player has clicked on</param>
+ <param name="Xstart">the x position of the first picturebox the player has clicked on</param>
+ <param name="Ystart">the y position of the first picturebox the player has clicked on</param>
+ <returns> a boolean value</returns>
+</member>
+<member name="M:SDD_Project_y12.frmGame.validSingleJump(System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+ <summary>
+ Checks a basic single square jump is valid, written by Kieran Goldston 2021
+ </summary>
+ <param name="clickedBtnX">the x position of the most current picturebox the player has clicked on</param>
+ <param name="clickedBtnY">the y position of the most current picturebox the player has clicked on</param>
+ <param name="Xstart">the x position of the first picturebox the player has clicked on</param>
+ <param name="Ystart">the y position of the first picturebox the player has clicked on</param>
+ <returns> a boolean value</returns>
+</member>
+<member name="M:SDD_Project_y12.frmGame.mustJump">
+ <summary>
+ Checks if a player must take a piece, written by Kieran Goldston 2021
+ </summary>
+ <returns> a boolean value</returns>
+</member>
+<member name="M:SDD_Project_y12.frmGame.checkKing(System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+ <summary>
+ Checks if a piece has reached the edge of the board and is now kinged, written by Kieran Goldston 2021
+ </summary>
+ <param name="clickedBtnX">the x position of the most current picturebox the player has clicked on</param>
+ <param name="clickedBtnY">the y position of the most current picturebox the player has clicked on</param>
+ <param name="Xstart">the x position of the first picturebox the player has clicked on</param>
+ <param name="Ystart">the y position of the first picturebox the player has clicked on</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.checkWin">
+ <summary>
+ Handles checking whether a win has been achieved, written by Kieran Goldston 2021
+ </summary>
+ <returns> a boolean value</returns>
+</member>
+<member name="M:SDD_Project_y12.frmGame.checkPieces(SDD_Project_y12.frmGame.RecPiece[0:,0:]@)">
+ <summary>
+ Checks grid square for a player's pieces, if they dont have any pieces than it returns true, written by Kieran Goldston 2021
+ </summary>
+ <param name="gameArr">2d array containing the information of each grid space on the board</param>
+ <returns> a boolean value</returns>
+</member>
+<member name="M:SDD_Project_y12.frmGame.checkAvailableMoves(SDD_Project_y12.frmGame.RecPiece[0:,0:]@)">
+ <summary>
+ Checks whether a player has any available moves, if not returns false, written by Kieran Goldston 2021
+ </summary>
+ <param name="gameArr">2d array containing the information of each grid space on the board</param>
+ <returns> a boolean value</returns>
+</member>
+<member name="M:SDD_Project_y12.frmGame.checkValidPieceTakes(System.Int32@,System.Int32@)">
+ <summary>
+ checks each piece a player has and if it can make a valid piece take, written by Kieran Goldston 2021
+ </summary>
+ <param name="x">test x position</param>
+ <param name="y">test y position</param>
+ <returns> a boolean value</returns>
+</member>
+<member name="M:SDD_Project_y12.frmGame.checkValidMoves(System.Int32@,System.Int32@)">
+ <summary>
+ Checks each piece a player has and if it can make any valid move, written by Kieran Goldston 2021
+ </summary>
+ <param name="x">test x position</param>
+ <param name="y">test y position</param>
+ <returns> a boolean value</returns>
+</member>
+<member name="M:SDD_Project_y12.frmGame.initialisePicArr(System.Windows.Forms.PictureBox[0:,0:])">
+ <summary>
+ Sets up the button array, written by Kieran Goldston 2021
+ </summary>
+ <param name="picArr">2d array of picture boxes, correlating to each gamearr index</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.BtnHighScores_Click(System.Object,System.EventArgs)">
+ <summary>
+ will take the user to the High Scores screen on button press, written by Kieran Goldston 2021
+ </summary>
+ <param name="sender">Reference to the control which called the subroutine</param>
+ <param name="e">Provides more information about the event that caused this subroutine to be called</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.btnHelp_Click(System.Object,System.EventArgs)">
+ <summary>
+ will take the user to the help screen on button press, written by Kieran Goldston 2021
+ </summary>
+ <param name="sender">Reference to the control which called the subroutine</param>
+ <param name="e">>Provides more information about the event that caused this subroutine to be called</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.btnHome_Click(System.Object,System.EventArgs)">
+ <summary>
+ Will take the user to the Home screen on button press, written by Kieran Goldston 2021
+ </summary>
+ <param name="sender">Reference to the control which called the subroutine</param>
+ <param name="e">Provides more information about the event that caused this subroutine to be called</param>
+</member>
+<member name="M:SDD_Project_y12.frmGame.updateScores">
+ <summary>
+ Gets both player 1 and 2's scores and updates them based on who has won or if their names already exist in the scores file, written by Kieran Goldston 2021
+ </summary>
+</member>
+<member name="M:SDD_Project_y12.frmGame.btnWin_Click(System.Object,System.EventArgs)">
+ <summary>
+ a button for testing wins and scoring by instantly winning the game, written by Kieran Goldston 2021
+ </summary>
+ <param name="sender">Reference to the control which called the subroutine</param>
+ <param name="e">>Provides more information about the event that caused this subroutine to be called</param>
+</member>
+<member name="M:SDD_Project_y12.frmHome.validatePlayerName(System.String,System.String)">
+ <summary>
+ checks whether the two names the players have entered are valid, written by Kieran Goldston 2021
+ </summary>
+ <param name="player1Name">stores player 1's name</param>
+ <param name="player2Name">stores player 2's name</param>
+ <returns> a boolean value</returns>
+</member>
+<member name="M:SDD_Project_y12.frmHome.BtnPlay_Click(System.Object,System.EventArgs)">
+ <summary>
+ will take the user to the game screen on button press, written by Kieran Goldston 2021
+ </summary>
+ <param name="sender">Reference to the control which called the subroutine</param>
+ <param name="e">Provides more information about the event that caused this subroutine to be called</param>
+</member>
+<member name="M:SDD_Project_y12.frmHome.btnHighScores_Click(System.Object,System.EventArgs)">
+ <summary>
+ will take the user to the High Scores screen on button press, written by Kieran Goldston 2021
+ </summary>
+ <param name="sender">Reference to the control which called the subroutine</param>
+ <param name="e">Provides more information about the event that caused this subroutine to be called</param>
+</member>
+<member name="M:SDD_Project_y12.frmHome.btnHelp_Click(System.Object,System.EventArgs)">
+ <summary>
+ will open the help window for the user, written by Kieran Goldston 2021
+ </summary>
+ <param name="sender">Reference to the control which called the subroutine</param>
+ <param name="e">Provides more information about the event that caused this subroutine to be called</param>
+</member>
+<member name="M:SDD_Project_y12.frmScores.frmScores_Load(System.Object,System.EventArgs)">
+ <summary>
+ Executes upon the form being opened for the first time, written by Kieran Goldston 2021
+ </summary>
+ <param name="sender">Reference to the control which called the subroutine</param>
+ <param name="e">Provides more information about the event that caused this subroutine to be called</param>
+</member>
+<member name="M:SDD_Project_y12.frmScores.getScores">
+ <summary>
+ handles retrieving, sorting, and printing the scores, written by Kieran Goldston 2021
+ </summary>
+</member>
+<member name="M:SDD_Project_y12.frmScores.printArr(SDD_Project_y12.Module1.recHighScore[])">
+ <summary>
+ prints the highscores array into the scores list box, written by Kieran Goldston 2021
+ </summary>
+</member>
+<member name="M:SDD_Project_y12.frmScores.btnBack_Click(System.Object,System.EventArgs)">
+ <summary>
+ On button press takes the user back to the previous form, written by Kieran Goldston 2021
+ </summary>
+ <param name="sender">Reference to the control which called the subroutine</param>
+ <param name="e">Provides more information about the event that caused this subroutine to be called</param>
+</member>
+<member name="M:SDD_Project_y12.frmScores.btnRefresh_Click(System.Object,System.EventArgs)">
+ <summary>
+ on button press refreshes the scores list box, used for debugging, written by Kieran Goldston 2021
+ </summary>
+ <param name="sender">Reference to the control which called the subroutine</param>
+ <param name="e">Provides more information about the event that caused this subroutine to be called</param>
+</member>
+<member name="M:SDD_Project_y12.Module1.readFile(SDD_Project_y12.Module1.recHighScore[]@)">
+ <summary>
+ reads the items in the file 'scores.txt' and inputs them into the array of records arrHighScores, written by Kieran Goldston 2021
+ </summary>
+</member>
+<member name="M:SDD_Project_y12.Module1.BubbleSort(SDD_Project_y12.Module1.recHighScore[]@)">
+ <summary>
+ sorts the items in arrHighScores, written by Kieran Goldston 2021
+ </summary>
+</member>
+<member name="M:SDD_Project_y12.Module1.swap(SDD_Project_y12.Module1.recHighScore@,SDD_Project_y12.Module1.recHighScore@)">
+ <summary>
+ swaps the position of two input variables, written by Kieran Goldston 2021
+ </summary>
+ <param name="A">the first variable</param>
+ <param name="B">the second variable</param>
+</member>
+<member name="M:SDD_Project_y12.Module1.writeFile(SDD_Project_y12.Module1.recHighScore[]@)">
+ <summary>
+ writes the array of records arrHighScores into the file 'scores.txt', written by Kieran Goldston 2021
+ </summary>
+</member>
+</members>
+</doc>

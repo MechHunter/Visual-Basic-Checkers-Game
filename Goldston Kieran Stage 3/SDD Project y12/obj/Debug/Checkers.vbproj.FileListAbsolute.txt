@@ -1,0 +1,16 @@
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\bin\Debug\SDD Project y12.exe.config
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\bin\Debug\SDD Project y12.exe
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\bin\Debug\SDD Project y12.pdb
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\bin\Debug\SDD Project y12.xml
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\obj\Debug\Checkers.vbprojAssemblyReference.cache
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\obj\Debug\SDD_Project_y12.frmGame.resources
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\obj\Debug\SDD_Project_y12.frmHelp.resources
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\obj\Debug\SDD_Project_y12.frmHome.resources
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\obj\Debug\SDD_Project_y12.frmScores.resources
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\obj\Debug\SDD_Project_y12.frmSplashScreen.resources
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\obj\Debug\SDD_Project_y12.Resources.resources
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\obj\Debug\Checkers.vbproj.GenerateResource.cache
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\obj\Debug\Checkers.vbproj.CoreCompileInputs.cache
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\obj\Debug\SDD Project y12.exe
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\obj\Debug\SDD Project y12.xml
+C:\Users\kvkie\Desktop\IT work\Goldston Kieran Stage 3\SDD Project y12\obj\Debug\SDD Project y12.pdb
